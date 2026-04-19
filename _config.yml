@@ -165,8 +165,6 @@ content:
       **Tools:** Git, Docker, CI/CD, Cloud Deployment
       
       **Frontend:** React.js, HTML, CSS
-      
-      **Interests & Hobbies:** Piano, Chess, Sketching, Painting, Sports, eSports
   - title: Honors & awards
     layout: list
     content:
@@ -200,7 +198,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Backend-focused Software Engineer with strong experience building scalable web applications using the MERN stack and designing robust REST APIs. Proficient in Node.js, React, MongoDB, and experienced in developing real-time systems, optimizing backend performance, and deploying production-ready applications serving 500+ users. Strong foundation in Python, SQL, and NoSQL databases for data-intensive systems, workflow automation, and backend engineering.
+      I enjoy building software and solving technical challenges, but I also recharge through creative and competitive pursuits. Outside of coding, I like playing piano, chess, sketching, and staying active through sports. I’m passionate about learning new tools, exploring AI applications, and balancing technical work with hobbies that keep me curious and energized.
 
 # Footer
 footer_show_references: true
