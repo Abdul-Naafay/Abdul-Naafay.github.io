@@ -1,4 +1,11 @@
 - layout: right
+  company: Research Experience
+  job_title: Co-authored ACM-style research paper
+  dates: 2022
+  description: >
+    Co-authored an ACM-style research paper for the Classification of Urdu News Articles project, covering dataset collection, NLP preprocessing pipeline design, model experimentation, and comparative evaluation of neural network and Naive Bayes approaches.
+
+- layout: right
   company: Company 1
   link: https://google.com
   job_title: Job title 1

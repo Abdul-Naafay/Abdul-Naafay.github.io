@@ -8,6 +8,22 @@
   description: >
     Description about the work on/with the project
 
+- layout: top-middle
+  name: Urdu Article Classifier
+  link: https://urdu-classifier.vercel.app/
+  quote: >
+    ML, Website
+  description: >
+    Urdu Article Classifier project featuring dataset collection, NLP preprocessing, and classification evaluation.
+
+- layout: top-middle
+  name: Custom RAG chatbot
+  link: https://rag-chatbot-frontend-nine.vercel.app/
+  quote: >
+    GenAI, Website
+  description: >
+    Custom retrieval-augmented generation chatbot built as an AI web application.
+
 - name: Project 2
   description: >
     Description about the work on/with the project

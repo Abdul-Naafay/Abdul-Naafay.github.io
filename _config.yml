@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Abdul Naafay
-title: Backend-focused Software Engineer
+title: BS CS | Computer Science Student | Software Engineering & AI & DATA
 email: naafayawan57@gmail.com
 # email_title: Email (Email title override)
 phone: +92 333 4170655
@@ -107,6 +107,15 @@ content:
           - Mentored 300+ students on SQL, backend systems, OOP, and system design
           - Designed assignments on REST APIs, CRUD systems, and database design
           - Automated grading workflows
+  - title: Volunteering
+    layout: list
+    content:
+      - layout: right
+        title: Operations Team Member
+        sub_title: Bunyaad Pakistan
+        caption: Jun 2022 - Jul 2022 · 2 mos
+        description: | # this will include new lines to allow paragraphs
+          - Supported operations for community outreach and event coordination.
   - title: Education
     layout: list
     content:
@@ -119,6 +128,27 @@ content:
           Lahore, Pakistan
         description: | # this will include new lines to allow paragraphs
           Dean's Honour List (Fall 2023–24, Spring 2023–24, Spring 2024–25)
+  - title: Honors & awards
+    layout: list
+    content:
+      - layout: right
+        title: Dean’s Honour List
+        sub_title: Associated with Lahore University of Management Sciences
+        caption: Nov 2023
+      - layout: right
+        title: Global 8th position in Matheton
+        sub_title: Issued by Academic Marathon
+        caption: Dec 2021
+        quote: Associated with Lahore Grammar School
+      - layout: right
+        title: Silver Medal Chess JT Sportsfest'22
+        sub_title: Issued by LGS JT
+        caption: Dec 2021
+        quote: Associated with Lahore Grammar School
+      - layout: right
+        title: 100% scholarship at LGS JT for Academic Years 2020-2022
+        sub_title: Associated with Lahore Grammar School
+        caption: Aug 2020
   - title: Technical Skills & Interests
     layout: text
     content: | # this will include new lines to allow paragraphs
