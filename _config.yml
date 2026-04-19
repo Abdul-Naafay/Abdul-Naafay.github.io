@@ -41,49 +41,26 @@ about_content: | # this will include new lines to allow paragraphs
   Backend-focused Software Engineer with strong experience building scalable web applications using the MERN stack and designing robust REST APIs. Proficient in Node.js, React, MongoDB, and experienced in developing real-time systems, optimizing backend performance, and deploying production-ready applications serving 500+ users. Strong foundation in Python, SQL, and NoSQL databases for data-intensive systems, workflow automation, and backend engineering.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
-      - layout: left
-        title: Urdu Article Classifier
-        link: https://urdu-classifier.vercel.app/
-        link_text: Live Demo
+      - layout: top-right
+        title: Lahore Grammar School JT, Lahore, Pakistan
+        sub_title: A Levels (Computer Science, Math, Physics, Chemistry)
+        caption: Aug. 2020 – May 2022
         quote: >
-          ML, Website
+          Lahore, Pakistan
         description: | # this will include new lines to allow paragraphs
-          Built an Urdu article classification web app with dataset collection, NLP preprocessing, and model evaluation.
-      - layout: left
-        title: Custom RAG chatbot
-        link: https://rag-chatbot-frontend-nine.vercel.app/
-        link_text: Live Demo
+          Merit scholarship 100%
+      - layout: top-right
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: B.S. in Computer Science
+        caption: Aug. 2022 – May 2026
+        link: https://lums.edu.pk/
         quote: >
-          GenAI, Website
+          Lahore, Pakistan
         description: | # this will include new lines to allow paragraphs
-          Developed a custom retrieval-augmented generation chatbot application with intelligent document retrieval and conversational AI.
-      - layout: left
-        title: IQueue
-        link: https://iqueue-zeta.vercel.app/
-        link_text: Live Demo
-        additional_links:
-          - title: Live Application
-            icon: fas fa-globe
-            url: https://iqueue-zeta.vercel.app/
-        quote: >
-          Full-stack application with optimized performance and real-time functionality
-        description: | # this will include new lines to allow paragraphs
-          Built and deployed full-stack application serving 100+ users with 30+ REST API endpoints using React, Node.js, Express, MongoDB, and Redis. Optimized performance to sub-350ms latency using Redis caching and database indexing. Deployed using Docker and CI/CD pipelines with integrated payment systems.
-      - layout: left
-        title: Edulink
-        link: https://se-project-blue.vercel.app/
-        link_text: Live Demo
-        additional_links:
-          - title: Live Application
-            icon: fas fa-globe
-            url: https://se-project-blue.vercel.app/
-        quote: >
-          Platform with real-time messaging and scalable database architecture
-        description: | # this will include new lines to allow paragraphs
-          Built full-stack platform with 20+ APIs supporting real-time messaging and course workflows using React, Node.js, Express, and MongoDB. Designed scalable database schemas supporting concurrent users. Improved user onboarding efficiency by 50% through optimized backend logic.
+          Dean's Honour List (Fall 2023–24, Spring 2023–24, Spring 2024–25)
   - title: Experience
     layout: list
     content:
@@ -123,35 +100,73 @@ content:
           - Mentored 300+ students on SQL, backend systems, OOP, and system design
           - Designed assignments on REST APIs, CRUD systems, and database design
           - Automated grading workflows
-  - title: Volunteering
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: IQueue
+        link: https://iqueue-zeta.vercel.app/
+        link_text: Live Demo
+        additional_links:
+          - title: Live Application
+            icon: fas fa-globe
+            url: https://iqueue-zeta.vercel.app/
+        quote: >
+          Full-stack application with optimized performance and real-time functionality
+        description: | # this will include new lines to allow paragraphs
+          Built and deployed full-stack application serving 100+ users with 30+ REST API endpoints using React, Node.js, Express, MongoDB, and Redis. Optimized performance to sub-350ms latency using Redis caching and database indexing. Deployed using Docker and CI/CD pipelines with integrated payment systems.
+      - layout: left
+        title: Edulink
+        link: https://se-project-blue.vercel.app/
+        link_text: Live Demo
+        additional_links:
+          - title: Live Application
+            icon: fas fa-globe
+            url: https://se-project-blue.vercel.app/
+        quote: >
+          Platform with real-time messaging and scalable database architecture
+        description: | # this will include new lines to allow paragraphs
+          Built full-stack platform with 20+ APIs supporting real-time messaging and course workflows using React, Node.js, Express, and MongoDB. Designed scalable database schemas supporting concurrent users. Improved user onboarding efficiency by 50% through optimized backend logic.
+      - layout: left
+        title: Urdu Article Classifier
+        link: https://urdu-classifier.vercel.app/
+        link_text: Live Demo
+        quote: >
+          ML, Website
+        description: | # this will include new lines to allow paragraphs
+          Built an Urdu article classification web app with dataset collection, NLP preprocessing, and model evaluation.
+      - layout: left
+        title: Custom RAG chatbot
+        link: https://rag-chatbot-frontend-nine.vercel.app/
+        link_text: Live Demo
+        quote: >
+          GenAI, Website
+        description: | # this will include new lines to allow paragraphs
+          Developed a custom retrieval-augmented generation chatbot application with intelligent document retrieval and conversational AI.
+  - title: Research Experience
     layout: list
     content:
       - layout: right
-        title: Operations Team Member
-        sub_title: Bunyaad Pakistan
-        caption: Jun 2022 - Jul 2022 · 2 mos
+        title: Co-authored ACM-style research paper
+        caption: 2022
         description: | # this will include new lines to allow paragraphs
-          - Supported operations for community outreach and event coordination.
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Lahore Grammar School JT, Lahore, Pakistan
-        sub_title: A Levels (Computer Science, Math, Physics, Chemistry)
-        caption: Aug. 2020 – May 2022
-        quote: >
-          Lahore, Pakistan
-        description: | # this will include new lines to allow paragraphs
-          Merit scholarship 100%
-      - layout: top-right
-        title: Lahore University of Management Sciences (LUMS)
-        sub_title: B.S. in Computer Science
-        caption: Aug. 2022 – May 2026
-        link: https://lums.edu.pk/
-        quote: >
-          Lahore, Pakistan
-        description: | # this will include new lines to allow paragraphs
-          Dean's Honour List (Fall 2023–24, Spring 2023–24, Spring 2024–25)
+          Co-authored an ACM-style research paper for the Classification of Urdu News Articles project, covering dataset collection, NLP preprocessing pipeline design, model experimentation, and comparative evaluation of neural network and Naive Bayes approaches.
+  - title: Technical Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Backend:** Node.js, Express.js, REST APIs, WebSockets, FastAPI
+      
+      **Languages:** JavaScript, TypeScript, Python, SQL
+      
+      **Databases:** MongoDB, SQL Server, Redis; query optimization, schema design
+      
+      **Concepts:** Data Structures, Algorithms, System Design, OOP
+      
+      **Tools:** Git, Docker, CI/CD, Cloud Deployment
+      
+      **Frontend:** React.js, HTML, CSS
+      
+      **Interests & Hobbies:** Piano, Chess, Sketching, Painting, Sports, eSports
   - title: Honors & awards
     layout: list
     content:
@@ -173,22 +188,19 @@ content:
         title: 100% scholarship at LGS JT for Academic Years 2020-2022
         sub_title: Associated with Lahore Grammar School
         caption: Aug 2020
-  - title: Technical Skills & Interests
+  - title: Volunteering
+    layout: list
+    content:
+      - layout: right
+        title: Operations Team Member
+        sub_title: Bunyaad Pakistan
+        caption: Jun 2022 - Jul 2022 · 2 mos
+        description: | # this will include new lines to allow paragraphs
+          - Supported operations for community outreach and event coordination.
+  - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Backend:** Node.js, Express.js, REST APIs, WebSockets, FastAPI
-      
-      **Languages:** JavaScript, TypeScript, Python, SQL
-      
-      **Databases:** MongoDB, SQL Server, Redis; query optimization, schema design
-      
-      **Concepts:** Data Structures, Algorithms, System Design, OOP
-      
-      **Tools:** Git, Docker, CI/CD, Cloud Deployment
-      
-      **Frontend:** React.js, HTML, CSS
-      
-      **Interests & Hobbies:** Piano, Chess, Sketching, Painting, Sports, eSports
+      Backend-focused Software Engineer with strong experience building scalable web applications using the MERN stack and designing robust REST APIs. Proficient in Node.js, React, MongoDB, and experienced in developing real-time systems, optimizing backend performance, and deploying production-ready applications serving 500+ users. Strong foundation in Python, SQL, and NoSQL databases for data-intensive systems, workflow automation, and backend engineering.
 
 # Footer
 footer_show_references: true
