@@ -45,6 +45,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Urdu Article Classifier
+        link: https://urdu-classifier.vercel.app/
+        link_text: Live Demo
+        quote: >
+          ML, Website
+        description: | # this will include new lines to allow paragraphs
+          Built an Urdu article classification web app with dataset collection, NLP preprocessing, and model evaluation.
+      - layout: left
+        title: Custom RAG chatbot
+        link: https://rag-chatbot-frontend-nine.vercel.app/
+        link_text: Live Demo
+        quote: >
+          GenAI, Website
+        description: | # this will include new lines to allow paragraphs
+          Developed a custom retrieval-augmented generation chatbot application with intelligent document retrieval and conversational AI.
+      - layout: left
         title: IQueue
         link: https://iqueue-zeta.vercel.app/
         link_text: Live Demo
@@ -119,6 +135,14 @@ content:
   - title: Education
     layout: list
     content:
+      - layout: top-right
+        title: Lahore Grammar School JT, Lahore, Pakistan
+        sub_title: A Levels (Computer Science, Math, Physics, Chemistry)
+        caption: Aug. 2020 – May 2022
+        quote: >
+          Lahore, Pakistan
+        description: | # this will include new lines to allow paragraphs
+          Merit scholarship 100%
       - layout: top-right
         title: Lahore University of Management Sciences (LUMS)
         sub_title: B.S. in Computer Science
